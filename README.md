@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Recipes app usign Spoonacular + React + Styled Components + Frame Motion + React Icons.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
