@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import useApi from "../hooks/useApi";
 import { getTrending } from "../services";
 import EmptyScreen from "../components/EmptyScreen";
+import Loading from "../components/Loading";
 
 function Home() {
   const recipes = useApi(getTrending);
@@ -20,6 +21,7 @@ function Home() {
       transition={{ duration: 0.5 }}
       exit={{ opacity: 0 }}
     >
+      {recipes.loading && <Loading />}
       {!recipes.data && (
         <EmptyScreen
           renderMessage={() => (

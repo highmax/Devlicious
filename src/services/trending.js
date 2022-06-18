@@ -16,7 +16,6 @@ export const getTrending = async () => {
 
     const trending = await trendingRequest.json();
     const veggies = await veggiesRequest.json();
-    console.log(trending, veggies);
 
     return { trending: trending.recipes, veggies: veggies.recipes };
   } catch (error) {
