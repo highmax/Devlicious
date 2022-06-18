@@ -1,4 +1,4 @@
-# Recipes app usign Spoonacular + React + Styled Components + Frame Motion + React Icons.
+# Recipes app using Spoonacular + React + Styled Components + Frame Motion + React Icons.
 
 
 
